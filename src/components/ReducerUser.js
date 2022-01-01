@@ -25,6 +25,7 @@ function reducer(state, action) {
       throw new Error(`다루지 액션 타입입니다: ${action.type}`);
   }
 }
+
 function Users() {
   const [state, dispatch] = useReducer(reducer, {
     loading: false,
