@@ -1,13 +1,15 @@
 import "./App.css";
 import Users from "./components/Users";
 import ReducerUser from "./components/ReducerUser";
+import AsyncUser from "./components/AsyncUsers";
 
 function App() {
   return (
     <div className="App">
-      <Users />
+      {/* <Users /> */}
+      <AsyncUser />
       <br />
-      <ReducerUser />
+      {/* <ReducerUser /> */}
     </div>
   );
 }
